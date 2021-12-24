@@ -17,7 +17,7 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private static final String IMAGES_URL = "http://192.168.56.1/database/getImages.php";
+    private static final String IMAGES_URL = "http://192.168.1.66/database/getImages.php";
 
 
     private Button buttonFetchImages;
