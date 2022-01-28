@@ -23,6 +23,12 @@
             android:text="Fetch Images"
             android:id="@+id/buttonFetchImages" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imageView" />
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -48,8 +54,10 @@
         <TextView
             android:id="@+id/ExceptionMsg"
             android:layout_width="match_parent"
-            android:layout_height="371dp"
+            android:layout_height="66dp"
             android:text="EXCEPTION MESSAGE" />
+
+
 
     </LinearLayout>
 
